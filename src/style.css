@@ -1,0 +1,75 @@
+.divstyling{
+  display:flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  border-radius:10px;
+  background-color: #2c2626;
+  color:white
+}
+.textstyling{
+  font-family:cursive;
+}
+.buttoncompletestyling{
+  background-color:hsl(115, 96%, 54%);
+  border:none;
+  margin:10px;
+  color: white;
+  padding: 3px;
+  border-radius:5px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.buttondeletestyling{
+  background-color:#e50002;
+  border:none;
+  margin:10px;
+  color: white;
+  width: 70px;
+  padding: 3px;
+  border-radius:5px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.parentHeading{
+ text-align: center;
+ color: white;
+}
+
+.parentInput{
+ 
+ border:2px solid #0cc1ee
+}
+
+.parentbutton{
+  background-color:#13b2f1;
+  border:none;
+  /* margin:10px; */
+  color: white;
+  height: 40px;
+  width: 70px;
+  padding: 3px;
+  border-radius:5px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-family:cursive
+}
+
+.parentDiv{
+  background-color: #2c2626;
+  border:1px solid #0966d1da;
+
+}
+.parentinputbtnbind{
+  
+  display: flex;
+  justify-content: space-around;
+  width:300px;
+  margin: auto;
+  height: 40px;
+
+  
+}
+
