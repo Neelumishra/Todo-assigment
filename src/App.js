@@ -23,12 +23,11 @@ export default function App() {
     setlist([...list, value]);
     reference.current.value = '';
     setcount(count+1)
-    console.log(list)
-
+    
   }
 
 function handlecomplete(index) {
-  setcount(count-1)
+  setlist(list.map((element)=>(element.status)?setcount(count+1):setcount(count-1)))
   setlist( list.map((element,i)=>{
     if(i!=index){
       return element
@@ -36,12 +35,14 @@ function handlecomplete(index) {
       return {
         message:element.message,
         status:!element.status
-      }
+        
+}
     }
     })) 
   }
 
   function handleDelete(index){
+    setcount(count-1)
     console.log("hello")
    setlist(list.filter((_,i)=>(index!==i)))}
 

@@ -4,7 +4,9 @@
   border: 2px solid white;
   border-radius:10px;
   background-color: #2c2626;
-  color:white
+  color:white;
+  margin: 5px;
+  
 }
 .textstyling{
   font-family:cursive;
@@ -75,8 +77,7 @@
 .parentDiv{
   background-color: #2c2626;
   border:1px solid #0966d1da;
-
-}
+  }
 .parentinputbtnbind{
   
   display: flex;
