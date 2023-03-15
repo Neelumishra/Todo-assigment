@@ -27,11 +27,13 @@ export default function App() {
   }
 
 function handlecomplete(index) {
-  setlist(list.map((element)=>(element.status)?setcount(count+1):setcount(count-1)))
+  
   setlist( list.map((element,i)=>{
     if(i!=index){
+      
       return element
     }else{
+      element.status? setcount(count+1):setcount(count-1)
       return {
         message:element.message,
         status:!element.status
