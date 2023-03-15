@@ -13,8 +13,8 @@ return(
 <div className="divstyling">
   <p className="textstyling" style={s}>{props.value.message}</p>
   
-   <button className="buttoncompletestyling" onClick={props.complete}>Complete</button>
-   <button className="buttondeletestyling" onClick={props.delete}>Delete</button>
+   <button className={props.value.status?"buttonunmarkedstyling fa fa-minus":"buttoncompletestyling fa fa-check"} onClick={props.complete}></button>
+   <button className="buttondeletestyling fa fa-remove" onClick={props.delete}></button>
   
 </div>
 )

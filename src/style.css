@@ -8,8 +8,22 @@
 }
 .textstyling{
   font-family:cursive;
+  width: 70%;
+  margin-left: 10px;
+}
+.buttonunmarkedstyling {
+  width: 40px;
+  background-color:orange;
+  border:none;
+  margin:10px;
+  color: white;
+  padding: 3px;
+  border-radius:5px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .buttoncompletestyling{
+  width: 40px;
   background-color:hsl(115, 96%, 54%);
   border:none;
   margin:10px;
@@ -21,11 +35,12 @@
 }
 
 .buttondeletestyling{
+  width: 40px;
   background-color:#e50002;
   border:none;
   margin:10px;
   color: white;
-  width: 70px;
+  
   padding: 3px;
   border-radius:5px;
   cursor: pointer;
